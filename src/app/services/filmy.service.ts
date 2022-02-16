@@ -1,9 +1,6 @@
 import { Injectable } from '@angular/core';
+import { Film } from '../interfaces/film';
 
-export interface Film {
-  id: Number 
-  tytul: String
-}
 @Injectable({
   providedIn: 'root'
 })

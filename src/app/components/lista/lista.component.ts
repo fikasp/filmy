@@ -1,10 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FilmyService } from '../filmy.service';
-
-export interface Film {
-  id: Number 
-  tytul: String
-}
+import { FilmyService } from '../../services/filmy.service';
+import { Film } from '../../interfaces/film';
 
 @Component({
   selector: 'app-lista',

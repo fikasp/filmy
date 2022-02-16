@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ListaComponent } from './lista/lista.component';
-import { DetaleComponent } from './detale/detale.component';
+import { ListaComponent } from './components/lista/lista.component';
+import { DetaleComponent } from './components/detale/detale.component';
 
-import { FilmyService } from './filmy.service';
+import { FilmyService } from './services/filmy.service';
 
 @NgModule({
   declarations: [
