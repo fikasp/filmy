@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from '../components/app.component';
+
+import { AppComponent } from '../components/app/app.component';
 import { ListaComponent } from '../components/lista/lista.component';
 import { DetaleComponent } from '../components/detale/detale.component';
 

@@ -12,7 +12,7 @@ export class ListaComponent implements OnInit {
 
   filmy: Film[] = [];
 
-  constructor( private fs: FilmyService) { }
+  constructor( private fs: FilmyService) { };
  
   ngOnInit() {
     this.filmy = this.fs.wszystkieFilmy();
