@@ -8,9 +8,9 @@ import { Film } from '../interfaces/film';
 export class FilmyService {
 
   private filmy: Film[] = [
-    {id: 0, tytul: 'Ojciec chrzestny 1'},
-    {id: 1, tytul: 'Ojciec chrzestny 2'},
-    {id: 2, tytul: 'Ojciec chrzestny 3'}
+    {id: 0, tytul: 'Ojciec Chrzestny 1'},
+    {id: 1, tytul: 'Ojciec Chrzestny 2'},
+    {id: 2, tytul: 'Ojciec Chrzestny 3'}
   ]
 
   wszystkieFilmy(): Film[] {
