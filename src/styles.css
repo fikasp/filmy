@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    font-family: Verdana;
+}
+p{
+    margin: 10px;
+}
+
+.b{
+    font-weight: bold;
+}
+.film {
+    float: left;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid #ccc;
+    background: #000000;
+    color: #ffffff;
+    font: 1em Verdana;
+}
+
+img{
+    height: 200px;
+    width: auto;
+}
